@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<MenuOptions>
+		<Option Key="Option0">Gioco singolo per 1 giocatore</Option>
+		<Option Key="Option1">Gioco cooperativo per 2 giocatori</Option>
+		<Option Key="Option2">Sopravvivenza per 2 giocatori</Option>
+		<Option Key="Option3">Duello per 2 giocatori</Option>
+		<Option Key="Option4">Impostazioni</Option>
+		<Option Key="Option5">Esci</Option>
+	</MenuOptions>
+
+	<SettingsOptions>
+		<Option Key="Option0">Impostazioni controllo Giocatore 1</Option>
+		<Option Key="Option1">Impostazioni controllo Giocatore 2</Option>
+		<Option Key="Option2">Altri tasti</Option>
+		<Option Key="Option3">Lingua</Option>
+		<Option Key="Option4">Modifica tastiera 1</Option>
+		<Option Key="Option5">Modifica tastiera 2</Option>
+		<Option Key="Option6">Modifica gamepad 1</Option>
+		<Option Key="Option7">Modifica gamepad 2</Option>
+		<Option Key="Option8">Torna al menu principale</Option>
+	</SettingsOptions>
+
+	<ExitMenuOptions>
+		<Option>Sì</Option>
+		<Option>No</Option>
+	</ExitMenuOptions>
+
+	<GeneralTexts>
+		<Text Key="Version">Versione</Text>
+		<Text Key="CurrentLevel">Livello attuale</Text>
+		<Text Key="LevelName">Nome livello</Text>
+		<Text Key="StartGame">Avvia gioco</Text>
+		<Text Key="Settings">Impostazioni</Text>
+		<Text Key="Exit">Esci</Text>
+		<Text Key="OtherKeysInfo1">M - Musica attiva</Text>
+		<Text Key="OtherKeysInfo2">N - Musica disattiva</Text>
+	</GeneralTexts>
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<MenuOptions>
+		<Option Key="Option0">1-Spieler-Solo-Spiel</Option>
+		<Option Key="Option1">2-Spieler-Koop-Spiel</Option>
+		<Option Key="Option2">2-Spieler-Überleben</Option>
+		<Option Key="Option3">2-Spieler-Duell</Option>
+		<Option Key="Option4">Einstellungen</Option>
+		<Option Key="Option5">Beenden</Option>
+	</MenuOptions>
+
+	<SettingsOptions>
+		<Option Key="Option0">Steuerung für Spieler 1</Option>
+		<Option Key="Option1">Steuerung für Spieler 2</Option>
+		<Option Key="Option2">Andere Tasten</Option>
+		<Option Key="Option3">Sprache</Option>
+		<Option Key="Option4">Tastatur 1 konfigurieren</Option>
+		<Option Key="Option5">Tastatur 2 konfigurieren</Option>
+		<Option Key="Option6">Gamepad 1 konfigurieren</Option>
+		<Option Key="Option7">Gamepad 2 konfigurieren</Option>
+		<Option Key="Option8">Zurück zum Hauptmenü</Option>
+	</SettingsOptions>
+
+	<ExitMenuOptions>
+		<Option>Ja</Option>
+		<Option>Nein</Option>
+	</ExitMenuOptions>
+
+	<GeneralTexts>
+		<Text Key="Version">Version</Text>
+		<Text Key="CurrentLevel">Aktuelles Level</Text>
+		<Text Key="LevelName">Level-Name</Text>
+		<Text Key="StartGame">Spiel starten</Text>
+		<Text Key="Settings">Einstellungen</Text>
+		<Text Key="Exit">Beenden</Text>
+		<Text Key="OtherKeysInfo1">F1 - Musik an</Text>
+		<Text Key="OtherKeysInfo2">F2 - Musik aus</Text>
+	</GeneralTexts>
+</LanguageData>

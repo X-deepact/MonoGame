@@ -1,0 +1,8 @@
+.vs/
+Art/Drones/SpacePack1/Thumbs.db
+*.db
+bin/
+Content/obj/
+obj/
+publish/
+releases/

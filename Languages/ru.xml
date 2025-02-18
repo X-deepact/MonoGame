@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<MenuOptions>
+		<Option Key="Option0">Одиночная игра</Option>
+		<Option Key="Option1">Совместная игра на 2 игрока</Option>
+		<Option Key="Option2">Выживание на 2 игрока</Option>
+		<Option Key="Option3">Дуэль на 2 игрока</Option>
+		<Option Key="Option4">Настройки</Option>
+		<Option Key="Option5">Выход</Option>
+	</MenuOptions>
+
+	<SettingsOptions>
+		<Option Key="Option0">Настройки управления Игрока 1</Option>
+		<Option Key="Option1">Настройки управления Игрока 2</Option>
+		<Option Key="Option2">Другие клавиши</Option>
+		<Option Key="Option3">Язык</Option>
+		<Option Key="Option4">Настроить клавиатуру 1</Option>
+		<Option Key="Option5">Настроить клавиатуру 2</Option>
+		<Option Key="Option6">Настроить геймпад 1</Option>
+		<Option Key="Option7">Настроить геймпад 2</Option>
+		<Option Key="Option8">Вернуться в главное меню</Option>
+	</SettingsOptions>
+
+	<ExitMenuOptions>
+		<Option>Да</Option>
+		<Option>Нет</Option>
+	</ExitMenuOptions>
+
+	<GeneralTexts>
+		<Text Key="Version">Версия</Text>
+		<Text Key="CurrentLevel">Текущий уровень</Text>
+		<Text Key="LevelName">Название уровня</Text>
+		<Text Key="StartGame">Начать игру</Text>
+		<Text Key="Settings">Настройки</Text>
+		<Text Key="Exit">Выход</Text>
+		<Text Key="OtherKeysInfo1">M - Музыка Включена</Text>
+		<Text Key="OtherKeysInfo2">N - Музыка Выключена</Text>
+	</GeneralTexts>
+</LanguageData>

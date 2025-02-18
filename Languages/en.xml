@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<MenuOptions>
+		<Option Key="Option0">1 Player Solo Game</Option>
+		<Option Key="Option1">2 Player Coop Game</Option>
+		<Option Key="Option2">2 Player Survival</Option>
+		<Option Key="Option3">2 Player Duel</Option>
+		<Option Key="Option4">Settings</Option>
+		<Option Key="Option5">Exit</Option>
+	</MenuOptions>
+
+	<SettingsOptions>
+		<Option Key="Option0">Player 1 Control Settings</Option>
+		<Option Key="Option1">Player 2 Control Settings</Option>
+		<Option Key="Option2">Other Keys</Option>
+		<Option Key="Option3">Language</Option>
+		<Option Key="Option4">Edit Keyboard1 Setup</Option>
+		<Option Key="Option5">Edit Keyboard2 Setup</Option>
+		<Option Key="Option6">Edit Gamepad1 Setup</Option>
+		<Option Key="Option7">Edit Gamepad2 Setup</Option>
+		<Option Key="Option8">Back to Main Menu</Option>
+	</SettingsOptions>
+
+	<ExitMenuOptions>
+		<Option>Yes</Option>
+		<Option>No</Option>
+	</ExitMenuOptions>
+
+	<GeneralTexts>
+		<Text Key="Version">Version</Text>
+		<Text Key="CurrentLevel">Current Level</Text>
+		<Text Key="LevelName">Level Name</Text>
+		<Text Key="StartGame">Start Game</Text>
+		<Text Key="Settings">Settings</Text>
+		<Text Key="Exit">Exit</Text>
+		<Text Key="OtherKeysInfo1">F1 - Music On</Text>
+		<Text Key="OtherKeysInfo2">F2 - Music Off</Text>
+		<!-- Add more general texts as needed -->
+	</GeneralTexts>
+</LanguageData>
