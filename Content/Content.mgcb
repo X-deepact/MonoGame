@@ -1,4 +1,3 @@
-
 #----------------------------- Global Properties ----------------------------#
 
 /outputDir:bin/$(Platform)
@@ -27,12 +26,12 @@
 /processorParam:TextureFormat=Compressed
 /build:Font/MenuFont.spritefont
 
-#begin Font/SmallFont.spritefont
+#begin Font/smallFont.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:Font/SmallFont.spritefont
+/build:Font/smallFont.spritefont
 
 #begin Player/P1_0001.png
 /importer:TextureImporter
