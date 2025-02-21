@@ -108,6 +108,13 @@ public class TileMap
         {
             for (int x = 0; x < width; x++)
             {
+                // Add rocks around the border
+                if (x == 0 || x == width - 1 || y == 0 || y == height - 1)
+                {
+                    map[x, y] = (int)TileTypes.Rock;
+                    continue;
+                }
+
                 float sample = PerlinNoise.Noise(x * scale, y * scale);
 
                 // Assign tile type based on dynamic thresholds
@@ -378,7 +385,7 @@ TileTypes currentTile, TileTypes transitionType, string edge)
             y < 0 || y >= map.GetLength(1))
             return false;
 
-        return (TileTypes)map[x, y] == type || (TileTypes)map[x, y] == TileTypes.Rock; 
+        return (TileTypes)map[x, y] == type;
     }
 
     public TileTypes GetTileType(int x, int y)

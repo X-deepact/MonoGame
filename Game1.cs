@@ -282,8 +282,6 @@ public class Game1 : Game
 
     private void DrawGame()
     {
-        GraphicsDevice.Clear(new Color(26, 0, 0));
-
         if (playerCount == 1)
         {
             DrawPlayerViewport(0, 0, screenWidth, screenHeight, cameraPlayer1, player1, null);
@@ -294,7 +292,8 @@ public class Game1 : Game
             DrawPlayerViewport(screenWidthHalved, 0, screenWidthHalved, screenHeight, cameraPlayer2, player2, player1);
         }
 
-        // Draw the split screen divider if needed
+        GraphicsDevice.Viewport = new Viewport(0, 0, screenWidth, screenHeight);
+
         if (playerCount == 2)
         {
             spriteBatch.Begin();
@@ -302,7 +301,6 @@ public class Game1 : Game
             spriteBatch.End();
         }
 
-        // Draw pause overlay if needed
         if (isPaused)
         {
             spriteBatch.Begin();
@@ -310,13 +308,6 @@ public class Game1 : Game
             overlayTexture.SetData(new[] { new Color(0, 0, 0, 0.5f) });
             spriteBatch.Draw(overlayTexture, new Rectangle(0, 0, screenWidth, screenHeight), Color.White);
             spriteBatch.End();
-        }
-
-        // Draw noise effect last
-        if (currentCamera != null)
-        {
-            currentCamera.UpdateNoiseEffect();
-            currentCamera.DrawNoiseEffect(spriteBatch);
         }
     }
 
